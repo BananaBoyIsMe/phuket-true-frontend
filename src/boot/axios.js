@@ -10,7 +10,10 @@ import axios from "axios";
 // const RESTAPI = "https://phuket-web-backend.vercel.app/api";
 // const RESTAPI = "https://phuket-true-backend.vercel.app/api/";
 //const RESTAPI = "https://manage-account-api.vercel.app/api";
-const RESTAPI = "http://localhost:3000/api/";
+
+const RESTAPI = "https://phuket-backend-finally.vercel.app/api";
+
+// const RESTAPI = "http://localhost:3000/api/";
 
 const api = axios.create({
   baseURL: RESTAPI,
